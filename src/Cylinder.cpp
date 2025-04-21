@@ -27,11 +27,11 @@ double Cylinder :: Volume(){
 
 double Cylinder :: Circumference(){
  
-    double total = 0.0;
+    double temp = 0.0;
     
-    total = 2*(M_PI)*radius;
+    temp = 2*(M_PI)*radius;
 
-    return total;
+    return temp;
 
 }
 
@@ -52,5 +52,4 @@ ostream & operator<<(ostream & out, Cylinder & cldr)
     
     return out;
 }
-
 # endif
